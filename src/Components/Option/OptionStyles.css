@@ -1,0 +1,20 @@
+.option {
+  padding: 10px 20px;
+  border: 3px solid #414141;
+  border-radius: 10px;
+  transition: 0.2s all ease;
+}
+
+.selected {
+  border-color: blue;
+}
+
+.incorrect {
+  border-color: red;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.correct {
+  border-color: #66cc99;
+  background: rgba(0, 128, 0, 0.2);
+}
